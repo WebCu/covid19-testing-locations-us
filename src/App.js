@@ -1,7 +1,11 @@
-import React from "react";
-import "./styles.css";
+import React from 'react';
+import './App.css';
 import TestingLocations from "./components/TestingLocations";
 
-export default function App() {
-  return <TestingLocations />;
+function App() {
+  return (
+    <TestingLocations />
+  );
 }
+
+export default App;
